@@ -37,7 +37,7 @@ async def handle_message(update: Update, context: CallbackContext):
         
 if __name__ == '__main__':
     # configure bot with token
-    application = Application.builder().token("7559033160:AAFgBVN9qV569Ag6Pbc58obGr4lGZose6Ec").build()
+    application = Application.builder().token("Token").build()
     
     # Add command and message handler
     application.add_handler(CommandHandler("start", start))
